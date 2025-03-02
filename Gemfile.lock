@@ -97,6 +97,7 @@ PLATFORMS
 
 DEPENDENCIES
   debug
+  irb
   minitest
   minitest-difftastic
   minitest-reporters
