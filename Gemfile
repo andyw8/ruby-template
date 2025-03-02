@@ -1,0 +1,10 @@
+source "https://rubygems.org"
+
+gem "debug"
+gem "minitest"
+gem "minitest-difftastic"
+gem "minitest-reporters"
+gem "mocha"
+gem "rake"
+gem "standard"
+gem "standard-minitest"

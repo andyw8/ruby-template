@@ -1,0 +1,23 @@
+name: ruby-template
+
+type: ruby
+
+up:
+  - ruby:
+  - bundler:
+env:
+  DEV_NO_AUTO_UPDATE: "1"
+
+commands:
+  test:
+    run: |
+      export DEV_NO_AUTO_UPDATE=1
+      if [[ $# -eq 0 ]]; then
+        bundle exec rake test
+      else
+        bundle exec m "$@"
+      fi
+  lint: |
+    export DEV_NO_AUTO_UPDATE=1
+    bundle exec standardrb
+  tcr: (bundle exec rake test && git add --all && git commit -am "WIP (Test-Commit-Revert)") || git reset --hard
