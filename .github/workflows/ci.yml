@@ -3,6 +3,7 @@ name: Ruby
 on: [push, pull_request]
 jobs:
   test:
+    if: github.repository == 'andyw8/ruby-template'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
