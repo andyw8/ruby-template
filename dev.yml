@@ -1,3 +1,5 @@
+# This file is for developers workinga at Shopify
+
 name: ruby-template
 
 type: ruby
@@ -12,11 +14,7 @@ commands:
   test:
     run: |
       export DEV_NO_AUTO_UPDATE=1
-      if [[ $# -eq 0 ]]; then
-        bundle exec rake test
-      else
-        bundle exec m "$@"
-      fi
+      bundle exec rake test
   lint: |
     export DEV_NO_AUTO_UPDATE=1
     bundle exec standardrb

@@ -8,5 +8,8 @@
   },
   "rubyLsp.linters": ["standard"],
   "rubyLsp.formatter": "standard",
-  "cSpell.enabled": false,
+  "rubyLsp.indexing": {
+    "excludedGems": ["standard", "minitest-reporters", "ruby-progressbar", "standard", "rubocop", "debug"],
+  },
+  "cSpell.enabled": false
 }
