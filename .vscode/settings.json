@@ -3,9 +3,6 @@
     "editor.formatOnSave": true,
     "editor.defaultFormatter": "Shopify.ruby-lsp"
   },
-  "github.copilot.enable": {
-    "*": false
-  },
   "rubyLsp.linters": ["standard"],
   "rubyLsp.formatter": "standard",
   "rubyLsp.indexing": {
