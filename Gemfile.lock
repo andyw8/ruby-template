@@ -1,3 +1,14 @@
+GIT
+  remote: https://github.com/andyw8/minitest-reporters.git
+  revision: 4fcdfe9a3fe8d399928a9c36a54709cf5cbb5b11
+  branch: andyw8/clean-reporter
+  specs:
+    minitest-reporters (1.7.1)
+      ansi
+      builder
+      minitest (>= 5.0)
+      ruby-progressbar
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -23,11 +34,6 @@ GEM
     minitest (5.25.4)
     minitest-difftastic (0.2.1)
       difftastic (~> 0.6)
-    minitest-reporters (1.7.1)
-      ansi
-      builder
-      minitest (>= 5.0)
-      ruby-progressbar
     mocha (2.7.1)
       ruby2_keywords (>= 0.0.5)
     parallel (1.26.3)
@@ -100,7 +106,7 @@ DEPENDENCIES
   irb
   minitest
   minitest-difftastic
-  minitest-reporters
+  minitest-reporters!
   mocha
   rake
   standard
