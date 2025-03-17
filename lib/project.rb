@@ -1,4 +1,4 @@
-class Project
+module Project
   def foo
   end
 end
