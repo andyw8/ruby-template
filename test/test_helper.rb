@@ -5,8 +5,7 @@ require "minitest/autorun"
 
 Minitest::Test.make_my_diffs_pretty! # need with difftastic?
 
-require "minitest/reporters"
-Minitest::Reporters.use!([Minitest::Reporters::DefaultReporter.new(color: true)])
+require "clean_reporter"
 
 require "mocha/minitest"
 # https://github.com/rubocop/minitest-style-guide/issues/38
