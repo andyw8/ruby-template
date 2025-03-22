@@ -1,2 +1,3 @@
 plugins:
-  - standard-minitest
+  # waiting on https://github.com/kirillplatonov/standard-minitest
+  # - standard-minitest
