@@ -108,7 +108,7 @@ DEPENDENCIES
   debug
   irb
   m
-  minitest (= 5.25.4)
+  minitest
   minitest-difftastic
   mocha
   rake

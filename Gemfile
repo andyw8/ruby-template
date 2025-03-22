@@ -1,7 +1,7 @@
 source "https://rubygems.org"
 
 gem "debug"
-gem "minitest", "= 5.25.4"
+gem "minitest"
 gem "minitest-difftastic"
 gem "clean_reporter"
 gem "mocha"
