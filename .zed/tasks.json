@@ -1,0 +1,9 @@
+[
+  {
+    "label": "test $ZED_RELATIVE_FILE:$ZED_ROW",
+    "command": "m",
+    // "args": ["-Itest", "\"$ZED_RELATIVE_FILE:$ZED_ROW\""],
+    "args": ["\"$ZED_RELATIVE_FILE:$ZED_ROW\""],
+    "tags": ["ruby-test"]
+  }
+]
